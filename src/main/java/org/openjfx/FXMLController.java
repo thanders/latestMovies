@@ -12,6 +12,9 @@ import movies.movies;
 import movies.parseMovies;
 
 import java.io.File;
+import java.time.format.DateTimeFormatter;
+
+import static java.time.LocalDate.now;
 
 public class FXMLController {
 
@@ -52,7 +55,7 @@ public class FXMLController {
             ObservableList<movies> ml = parsed.getMovielist();
             Integer numMovies = ml.size();
 
-            descText.setText(numMovies+ " movies are playing in your area");
+            descText.setText(numMovies+ " movies are playing in your area today, "+ now().format(DateTimeFormatter.ofPattern("dd MMM yyyy")));
 
             title.setCellValueFactory(new PropertyValueFactory<>("title"));
             releasedate.setCellValueFactory(new PropertyValueFactory<>("releaseDate"));

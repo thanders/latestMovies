@@ -21,11 +21,11 @@ public class getMovies {
     // Constructor
     public getMovies() throws IOException {
 
-        if (checkConnection.checkConnection()) {
-            System.out.println("Connection Check Passed");
+        // if (checkConnection.checkConnection()) {
+            // System.out.println("Connection Check Passed");
             this.download();
             System.out.println("File downloaded");
-        }
+   //     }
     }
 
     // Starts download. exception thrown if doesn't work

@@ -145,17 +145,26 @@ public class parseMovies {
                 this.releaseDateDF = new SimpleObjectProperty(dt);
 
                 // Parses the runtime - converts String to Integer and stores it as a SimpleIntegerProperty
-                 this.runtime = new SimpleIntegerProperty(parseInt(el.select("div#runtime").first().select("strong").text()));
+                String rt = el.select("div#runtime").first().select("strong").text();
+                if (rt.isEmpty()){
+                    Integer rti = Integer.parseInt("100");
+                    this.runtime = new SimpleIntegerProperty(rti);
+                }
+                else {
+                    Integer rti = Integer.parseInt(rt);
+                    this.runtime = new SimpleIntegerProperty(rti);
+                }
+
 
                 // Parses the certificate rating - stores as SimpleStringProperty
                  this.certificate = new SimpleStringProperty(el.select("p.director").first().select("span.certificate").text());
 
                 // Parses the genre - Stores as SimpleStringProperty
+
                  this.genre = new SimpleStringProperty(el.select("p.director").first().select("span.genre").text());
 
                 // Parses the genre - Stores as SimpleStringProperty
                 this.director = new SimpleStringProperty(el.select("description").first().select("p.director").first().select("a").first().text());
-
 
                 // Parses the imdbRating - Stores as SimpleDoubleProperty
                 Element meta = el.select("meta[itemprop=ratingValue]").first();

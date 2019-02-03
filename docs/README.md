@@ -24,11 +24,13 @@ Work is being done to package this application as a Snap package
 
 # Screenshots
 
-<table>
-<caption align="bottom">This is the GUI</caption>
-<tr><td><img src="assets/SilverScreen_lm_GUI.png" alt="SilverScreen latest movies GUI" style="height: 85%; width: 85%;"/></td></tr>
-</table>
+Main GUI (Latest movies)
+<img src="assets/SilverScreen_lm_GUI.png" alt="SilverScreen latest movies GUI" style="height: 85%; width: 85%;"/>
 
+# Documentation
+
+Maven dependency diagram
+<img src="assets/SilverScreen_Maven.png" alt="Maven dependency diagram" style="height: 85%; width: 85%;"/>
 
 
 # Works Cited

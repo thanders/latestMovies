@@ -1,0 +1,29 @@
+# Description
+
+SilverScreen is a Java application that downloads, parses and displays information about movies that are playing in your area.
+
+# Requirements
+
+A Java Runtime Environment (JRE) is required in order to execute the compiled code.
+
+The source code of this project uses Maven and has the following dependencies:
+- Jsoup
+- OpenJFX (javafx.controls, javafx.graphics, javafx.fxml)
+
+# How to run
+
+### Jar
+
+Fromt the terminal you can execute the compiled jar:
+`java out/artifacts/silverScreen_jar/silverScreen.jar`
+
+## Snap
+
+Work is being done to package this application as a Snap package
+
+# Screenshots
+
+
+# Works Cited
+[OpenJFX](https://openjfx.io/ "OpenJFX website")
+[Jsoup](https://jsoup.org/ "Jsoup website")

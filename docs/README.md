@@ -24,6 +24,7 @@ Work is being done to package this application as a Snap package
 
 # Screenshots
 
+![SilverScreen main GUI](assets/silverScreen_lm_GUI.png "SilverScreen latest movies GUI")
 
 # Works Cited
 [OpenJFX](https://openjfx.io/ "OpenJFX website")

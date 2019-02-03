@@ -24,7 +24,12 @@ Work is being done to package this application as a Snap package
 
 # Screenshots
 
-<div style="text-align: center;"><img src="assets/SilverScreen_lm_GUI.png" alt="SilverScreen latest movies GUI" style="height: 85%; width: 85%;"/>
+<table>
+<caption align="bottom">This is the GUI</caption>
+<tr><td><img src="assets/SilverScreen_lm_GUI.png" alt="SilverScreen latest movies GUI" style="height: 85%; width: 85%;"/></td></tr>
+</table>
+
+
 
 # Works Cited
 [OpenJFX](https://openjfx.io/ "OpenJFX website")

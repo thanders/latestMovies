@@ -16,7 +16,7 @@ The source code of this project uses Maven and has the following dependencies:
 
 From the terminal, you can execute the provided compiled jar:
 
-`java out/artifacts/silverScreen_jar/silverScreen.jar`
+`java silverScreen/out/artifacts/silverScreen_jar/silverScreen.jar`
 
 ## Snap
 

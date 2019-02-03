@@ -14,9 +14,9 @@ The source code of this project uses Maven and has the following dependencies:
 
 ### Jar
 
-From the terminal, you can execute the provided compiled jar:
+Github will host a compiled version of this source code (a jar file) as a Github Release which can be run with the command
 
-`java silverScreen/out/artifacts/silverScreen_jar/silverScreen.jar`
+`java silverScreen.jar`
 
 ## Snap
 
@@ -33,6 +33,10 @@ Maven dependency diagram
 
 <img src="assets/SilverScreen_Maven.png" alt="Maven dependency diagram" style="height: 70%; width: 70%;"/>
 
+
+# Issues
+
+Issues can be raised by submitting them [here](https://github.com/thanders/silverScreen/issues/ "Github repository issues"):
 
 # Works Cited
 [OpenJFX](https://openjfx.io/ "OpenJFX website")

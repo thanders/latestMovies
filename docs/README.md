@@ -29,7 +29,7 @@ Main GUI (Latest movies)
 
 # Documentation
 
-Maven dependency diagram
+Maven module dependency diagram
 
 <img src="assets/SilverScreen_Maven.png" alt="Maven dependency diagram" style="height: 70%; width: 70%;"/>
 

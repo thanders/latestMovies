@@ -36,7 +36,7 @@ Maven dependency diagram
 
 # Issues
 
-Issues can be raised by submitting them [here](https://github.com/thanders/silverScreen/issues/ "Github repository issues"):
+Issues can be raised by submitting them [here](https://github.com/thanders/silverScreen/issues/ "Github repository issues")
 
 # Works Cited
 [OpenJFX](https://openjfx.io/ "OpenJFX website")
